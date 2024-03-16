@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100%;
+  width: 100vw;
+  margin: 0;
+  background: hsla(0, 0%, 0%, 1);
+
+background: radial-gradient(circle, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 10%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 10%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 10%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#191919", GradientType=1 );
+  font-family: 'Open Sans',sans-serif;
+  /*font-family: 'M PLUS 1p', sans-serif;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('./bg.png'); */
+  /* background-size: 200% 180%; */
+  /* npx hardhat run scripts/deploy.js --network sepolia */
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: gradientTransform;
+  background-repeat: no-repeat;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
