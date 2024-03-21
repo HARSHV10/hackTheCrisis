@@ -24,8 +24,8 @@ module.exports = {
 
     sepolia: {
       chainId: 11155111,
-      url: "https://eth-sepolia.g.alchemy.com/v2/ljTVfG8K7M8Tr8PkuW8wtDRrZc_EFYYY",
-      accounts: ["e832253bf9feb33112f459bc568ca3b5afe467725ff036ebeb55c51b5150ece4"],
+      url: "https://eth-sepolia.g.alchemy.com/v2/{apni use karo]",
+      accounts: ["apni use kro "],
     },
     // mumbai: {
     //   url: `https://polygon-mumbai.g.alchemy.com/v2/ejJyT6lsRgXGqaagqRW-zq0S3RHtImP7`,
